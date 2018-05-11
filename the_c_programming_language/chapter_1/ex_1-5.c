@@ -3,6 +3,7 @@
 #define LOWER 0
 #define UPPER 300  /* Upper temp limit */
 #define STEP 20  /* step size */
+
 int main () {
     printf("Deg. F\tDeg.C\n");
     for (float fahr = UPPER; fahr >= LOWER; fahr = fahr - STEP) {
